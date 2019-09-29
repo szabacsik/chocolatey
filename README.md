@@ -30,10 +30,10 @@ choco install packages.config --yes --prerelease --allow-empty-checksums
 
 ### Notes
 
-`--package-parameters=VALUE`
+`--package-parameters=VALUE`  
 PackageParameters - Parameters to pass to the package. Defaults to unspecified.  
 
-`--install-arguments=VALUE`
+`--install-arguments=VALUE`  
 InstallArguments - Install Arguments to pass to the native installer in the package. Defaults to unspecified.  
 
 <https://stackoverflow.com/questions/37803877/how-do-i-pass-parameters-to-the-installer-in-a-chocolatey-package>
